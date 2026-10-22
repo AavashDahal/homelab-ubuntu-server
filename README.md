@@ -26,15 +26,15 @@ Ich habe den Zugriff mit `smbclient` getestet. Ich konnte mich anmelden und eine
 
 ![Samba läuft](screenshots/02-samba-status-running.png)
 ![Konfiguration](screenshots/03b-smb-conf-saved.png)
-![Zugriff mit smbclient](screenshots/04-share-test_.png)
-![Schreibtest](screenshots/05-share-write-test_.png)
+![Zugriff mit smbclient](screenshots/04-share-test%20.png)
+![Schreibtest](screenshots/05-share-write-test%20.png)
 
 ### 2. Nginx (Webserver)
 
 Ich habe Nginx installiert und getestet. In VirtualBox habe ich eine Portweiterleitung eingerichtet (Port 8080 auf Port 80).
 Jetzt sehe ich die Webseite im Browser auf meinem Windows-Laptop.
 
-![Nginx läuft](screenshots/06-nginx-status-running_.png)
+![Nginx läuft](screenshots/06-nginx-status-running%20.png)
 ![Test mit curl](screenshots/07-nginx-curl-test.png)
 ![Test im Browser](screenshots/08-nginx-browser-test.png)
 
@@ -50,7 +50,7 @@ sudo ufw allow 'Samba'
 sudo ufw enable
 ```
 
-![Firewall aus](screenshots/09-ufw-status-inactive_.png)
+![Firewall aus](screenshots/09-ufw-status-inactive%20.png)
 ![Firewall an](screenshots/10-ufw-status-active.png)
 
 ### 4. SSH vom Windows-Laptop
@@ -67,7 +67,7 @@ Danach hat die Verbindung funktioniert:
 ssh -p 2222 aavash@127.0.0.1
 ```
 
-![SSH von Windows](screenshots/11-ssh-from-windows_.png)
+![SSH von Windows](screenshots/11-ssh-from-windows%20.png)
 
 ### 5. Backup-Skript mit Cron
 
@@ -80,7 +80,7 @@ Cron startet das Skript jeden Tag um 02:00 Uhr.
 ```
 
 ![Backup-Test](screenshots/12-backup-script-test.png)
-![Cron-Job](screenshots/13-cron-job_.png)
+![Cron-Job](screenshots/13-cron-job%20.png)
 
 ## Was ich gelernt habe
 
