@@ -26,8 +26,8 @@ Ich habe den Zugriff mit `smbclient` getestet. Ich konnte mich anmelden und eine
 
 ![Samba läuft](screenshots/02-samba-status-running.png)
 ![Konfiguration](screenshots/03b-smb-conf-saved.png)
-![Zugriff mit smbclient](screenshots/04-share-test.png)
-![Schreibtest](screenshots/05-share-write-test.png)
+![Zugriff mit smbclient](screenshots/04-share-test_.png)
+![Schreibtest](screenshots/05-share-write-test_.png)
 
 ### 2. Nginx (Webserver)
 
