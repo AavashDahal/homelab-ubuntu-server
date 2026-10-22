@@ -25,6 +25,8 @@ Ich habe den Ordner `/srv/share` freigegeben. Nur der Benutzer `aavash` darf dar
 Ich habe den Zugriff mit `smbclient` getestet. Ich konnte mich anmelden und einen Ordner anlegen.
 
 ![Samba läuft](screenshots/02-samba-status-running.png)
+![Konfiguration](screenshots/03b-smb-conf-saved.png)
+![Zugriff mit smbclient](screenshots/04-share-test.png)
 ![Schreibtest](screenshots/05-share-write-test.png)
 
 ### 2. Nginx (Webserver)
