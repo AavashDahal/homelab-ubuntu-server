@@ -82,6 +82,17 @@ Cron startet das Skript jeden Tag um 02:00 Uhr.
 ![Backup-Test](screenshots/12-backup-script-test.png)
 ![Cron-Job](screenshots/13-cron-job%20.png)
 
+Ich habe den Cron-Job getestet. Dafür habe ich ihn kurz jede Minute laufen lassen.
+Das Backup wurde automatisch erstellt. Danach habe ich die Testzeile wieder gelöscht.
+
+![Cron-Test](screenshots/14-cron-test.png)
+
+### 6. Snapshot
+
+Zum Schluss habe ich einen Snapshot der virtuellen Maschine erstellt (Name: Homelab fertig).
+
+![Snapshot](screenshots/15-snapshot.png)
+
 ## Was ich gelernt habe
 
 - Wie man Dienste installiert und mit `systemctl` prüft.
@@ -93,7 +104,6 @@ Cron startet das Skript jeden Tag um 02:00 Uhr.
 ## Nächste Schritte
 
 - Backup wiederherstellen und testen
-- Snapshot der virtuellen Maschine erstellen
 - Windows Server als zweite virtuelle Maschine
 
 ## Dateien
